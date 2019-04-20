@@ -16,7 +16,12 @@ module.exports = {
         protocol: 'http',
         // Use 'Advanced Custom Fields' Wordpress plugin
         useACF: false,
-        auth: {},
+        auth: {
+          wpcom_app_clientSecret: 'CLIENT SECRET',
+					wpcom_app_clientId: 'CLIENT ID',
+					wpcom_user: 'USERNAME',
+          wpcom_pass: 'PASSWORD',
+        },
         // Set to true to debug endpoints on 'gatsby build'
         verboseOutput: false,
       },
